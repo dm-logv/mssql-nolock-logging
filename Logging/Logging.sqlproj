@@ -60,6 +60,7 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Schemas" />
+    <Folder Include="Tables" />
   </ItemGroup>
   <ItemGroup>
     <ArtifactReference Include="C:\Program Files (x86)\Microsoft Visual Studio\2017\SQL\Common7\IDE\Extensions\Microsoft\SQLDB\Extensions\SqlServer\130\SqlSchemas\master.dacpac">
@@ -70,5 +71,6 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="Schemas\logging.sql" />
+    <Build Include="Tables\logging.log.sql" />
   </ItemGroup>
 </Project>
